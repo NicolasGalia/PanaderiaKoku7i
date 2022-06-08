@@ -1,0 +1,28 @@
+
+         .img-sabores-responsive{
+border-radius: 7%;
+filter: blur(2px) !important;
+         }       
+.img-sabores-responsive:hover {
+box-shadow: 8px 8px 10px rgb(95, 95, 95);
+filter: blur(0px) !important;
+}
+
+@media all and (max-width: 767px){
+    .img-banner-responsive {
+    height: 250px;
+    object-fit: cover;
+    }
+    }
+    @media all and (max-width: 1568px){
+        .img-sabores-responsive {
+        height: 250px;
+       
+        }
+        }
+        @media all and (max-width: 1190px){
+            .img-sabores-responsive {
+            height: 350px;
+           
+            }
+            }
