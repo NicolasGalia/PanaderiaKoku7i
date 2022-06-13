@@ -7,8 +7,8 @@
     <meta name="author" content="">
     <meta name="keywords">
     <meta name="">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/estilos.css">
     <title>Panaderia Cocu</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg bg-dark d-flex">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                  <img src="img/cocu_logo-450.png" alt="logo panaderia cocu" width="90px" class="mx-5">
+                  <img src="../img/cocu_logo-450.png" alt="logo panaderia cocu" width="90px" class="mx-5">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,13 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-5">
                   <li class="nav-item">
-                    <a class="nav-link text-white-50" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link text-white-50" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-white-50" href="productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link active text-white-50" href="historia.html">Historia</a>
+                      <a class="nav-link active text-white-50" aria-current="page"  href="historia.html">Historia</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link text-white-50" href="contactos.html">Contacto</a>
@@ -41,13 +41,23 @@
             </div>
           </nav>
     </header>
-    <main> <br>
-    <br></main>
+    <main class=" container my-5"> 
+      <h1 class="display-1 text-center">Un poco de nuestra historia</h1>
+      <br>
+      <section class="row">
+        <aside class="col-12 col-md-6 ">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum debitis porro quo, id obcaecati voluptatibus? Quae, vel sunt! Iusto libero iste illum ut. Voluptas, dolore molestias sunt vel ipsam vero odit quis, tempore necessitatibus debitis sed facilis enim laboriosam autem tempora recusandae! Quisquam odio fugiat possimus soluta iusto accusantium sapiente, culpa sit molestias est dignissimos, omnis consequuntur. Incidunt mollitia nobis officia nesciunt quaerat facilis, nostrum a, minus quisquam illo eaque totam dicta ipsum sed iure ea est fugiat eius nisi fugit pariatur rerum deleniti vero! Repellat, excepturi quaerat facere quam animi delectus harum laudantium libero cum! Dignissimos suscipit repudiandae deleniti.</p>
+        </aside>
+        <aside class="col-12 col-md-6 ">
+          <img src="../img/historia.png" class="w-100" alt="Historia de nosotros">
+        </aside>
+      </section>
+    </main>
     <footer>
         <nav class="navbar navbar-expand-lg bg-dark d-flex justify-content-around">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                  <img src="img/cocu_logo-450.png" alt="logo panaderia cocu" width="90px" class="mx-5">
+                  <img src="../img/cocu_logo-450.png" alt="logo panaderia cocu" width="90px" class="mx-5">
               </a>
               <div class="flex-column">
                 <h5 class="text-white-50">Horarios de atencion:</h5>
@@ -64,6 +74,6 @@
             </div>
           </nav>
     </footer>
-    <script src="JS/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
